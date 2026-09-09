@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dream Turns Into a Nightmare | Sayid's Journey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <button class="brand" id="homeBtn" aria-label="Return to story start"><span class="logo-mark">✦</span><span>FIRST TECH<br><i>ROLEPLAY EXPERIENCE</i></span></button>
+    <div class="progress-wrap"><span id="progressText">THE BEGINNING</span><div class="progress"><i id="progressBar"></i></div></div>
+    <button class="sound-toggle" id="contrastBtn" aria-pressed="false">◐ Focus mode</button>
+  </header>
+
+  <main id="app">
+    <section class="screen active intro" data-scene="0">
+      <div class="intro-copy">
+        <p class="eyebrow">HR CONCLAVE · CASE 1 · DREAM TURNS INTO A NIGHTMARE</p>
+        <h1>Meet the<br><em>cast.</em></h1>
+        <p class="lede">The people behind Sayid's six-month career journey.</p>
+        <div class="opening-cast" aria-label="Cast list"><span>DEEPIKA<br><b>Narrator</b></span><span>ANSH<br><b>Sayid</b></span><span>TANYA<br><b>Maya / Deepak</b></span><span>SONALI<br><b>Tejinder</b></span><span>ISHIKA<br><b>Vetrivel / Priya</b></span></div>
+        <button class="primary enter" data-next="1">Begin Sayid's story <b>→</b></button>
+        <p class="hint">Replace the photo spaces in the final cast view with your images.</p>
+      </div>
+      <div class="intro-art" aria-hidden="true"><div class="sun"></div><div class="city"><i></i><i></i><i></i><i></i><i></i></div><div class="silhouette"></div><span class="dream-tag">A career begins here</span></div>
+      <div class="college-placeholder">COLLEGE LOGO<br><small>PLACEHOLDER</small></div>
+    </section>
+
+    <section class="screen onboarding" data-scene="1">
+      <div class="scene-label">01 / THE PROMISE</div>
+      <div class="room office-lobby"><div class="windows"></div><div class="plant"></div><div class="welcome-sign">WELCOME TO<br><strong>FIRST TECH</strong></div><div class="person sayid happy"></div></div>
+      <article class="story-card"><p class="eyebrow">A NEW BEGINNING</p><h2>Sayid arrives<br>full of possibility.</h2><p>Tier 2 college. Strong performance. A place at a reputed IT company — with training, growth and a future in view.</p><div class="stat-row"><span><b>Tier 2</b> engineering college</span><span><b>Top</b> performer</span></div><button class="primary" data-next="2">Step into onboarding <b>→</b></button></article>
+    </section>
+
+    <section class="screen training" data-scene="2">
+      <div class="scene-label">02 / INVESTED IN</div>
+      <div class="training-art"><div class="screen-code">LEARN<br><b>BUILD</b><br>GROW</div><div class="desk"><i></i><i></i><i></i></div><div class="person sayid happy seated"></div><div class="certificate">ASSESSMENT<br><b>HIGH SCORE</b></div></div>
+      <article class="story-card"><p class="eyebrow">ONBOARDING & TRAINING</p><h2>He feels<br>seen and prepared.</h2><p>First Tech invests in intensive, assessed training. Sayid excels — and believes this is where a career can flourish.</p><button class="primary" data-next="3">See the first assignment <b>→</b></button></article>
+    </section>
+
+    <section class="screen project" data-scene="3">
+      <div class="scene-label">03 / THE MISMATCH</div>
+      <div class="project-art"><div class="world">US<br><small>CLIENT</small></div><div class="network n1"></div><div class="network n2"></div><div class="project-board"><span>GLOBAL PROJECT</span><b>DEVELOPMENT</b><i>High visibility · tight delivery</i></div><div class="person sayid unsure"></div></div>
+      <article class="story-card"><p class="eyebrow">A COVETED PROJECT</p><h2>A great project.<br>Not his direction.</h2><p>Sayid is selected for a prestigious US-client development project. But his career interest is testing automation.</p><div class="choice-row"><button class="choice" data-reveal="project-note">His aspiration: automation testing <b>+</b></button></div><p id="project-note" class="reveal">The first gap appears: business opportunity and career aspiration are not aligned.</p><button class="primary locked" data-next="4">Ask for a change <b>→</b></button></article>
+    </section>
+
+    <section class="screen hr" data-scene="4">
+      <div class="scene-label">04 / THE FIRST NO</div>
+      <div class="hr-art"><div class="door"><b>H R</b><span>People &amp; culture</span></div><div class="queue"><i></i><i></i><i></i></div><div class="person sayid waiting"></div><div class="speech-bubble">Business needs<br>come first.</div></div>
+      <article class="story-card"><p class="eyebrow">THE HR DESK</p><h2>He asks for<br>a chance.</h2><p>His request to move is met with a familiar logic: project allocation follows performance and business needs. The rare opportunity is framed as a reason to stay.</p><button class="choice" data-reveal="hr-note">What Sayid hears: "Not now." <b>+</b></button><p id="hr-note" class="reveal">The option is deferred, not resolved — and he remains in development.</p><button class="primary locked" data-next="5">Enter the project floor <b>→</b></button></article>
+    </section>
+
+    <section class="screen golden" data-scene="5">
+      <div class="scene-label">05 / THE GOLDEN CAGE</div>
+      <div class="golden-art"><div class="award">★<small>EMPLOYEE<br>OF THE MONTH</small></div><div class="cage"><i></i><i></i><i></i><i></i><i></i></div><div class="project-clock">CLIENT<br>DEADLINE</div><div class="person sayid confined"></div></div>
+      <article class="story-card"><p class="eyebrow">SUCCESS WITHOUT FIT</p><h2>Recognition<br>doesn't solve it.</h2><p>He delivers, earns awards, and matters to the client. When he raises the topic with Maya, the project's criticality and training investment keep him in place.</p><div class="meter"><span>Engagement</span><div><i style="width:55%"></i></div><b>fading</b></div><button class="primary" data-next="6">Look for another door <b>→</b></button></article>
+    </section>
+
+    <section class="screen search" data-scene="6">
+      <div class="scene-label">06 / SEARCHING</div>
+      <div class="search-art"><div class="night-window"></div><div class="laptop"><span>&lt;/test automation&gt;</span></div><div class="job-card one">TEST AUTOMATION<br><b>Internal role</b></div><div class="job-card two">TEST LEAD<br><b>External opportunity</b></div><div class="person sayid studying"></div></div>
+      <article class="story-card"><p class="eyebrow">BUILDING A WAY OUT</p><h2>He learns at night.<br>He searches in secret.</h2><p>Sayid takes an online automation course and explores internal roles. An internal move still needs his manager's recommendation; an external opening finally values his direction.</p><button class="choice" data-reveal="search-note">Open the external offer <b>↗</b></button><p id="search-note" class="reveal">Vetrivel's team sees a tester in Sayid. The interview goes well. An offer is ready.</p><button class="primary locked" data-next="7">Read the fine print <b>→</b></button></article>
+    </section>
+
+    <section class="screen bond" data-scene="7">
+      <div class="scene-label">07 / THE RESTRICTION</div>
+      <div class="bond-art"><div class="offer-letter"><small>OFFER</small><b>TESTING TEAM</b><span>Ready to join</span></div><div class="chain"><i>2</i><i>Y</i><i>R</i></div><div class="lock">⌁</div><div class="months"><b>8</b><span>months<br>remaining</span></div><div class="person sayid blocked"></div></div>
+      <article class="story-card"><p class="eyebrow">THE BOND</p><h2>The right role.<br>Not the freedom.</h2><p>A two-year bond has eight months left. Early release is declined; Sayid cannot afford the release amount. The external offer has to be refused.</p><div class="impact"><span>Opportunity</span><b>blocked</b><span>Choice</span><b>constrained</b></div><button class="primary" data-next="8">See what changes <b>→</b></button></article>
+    </section>
+
+    <section class="screen disengage" data-scene="8">
+      <div class="scene-label">08 / THE QUIET EXIT</div>
+      <div class="disengage-art"><div class="empty-chairs"><i></i><i></i><i></i></div><div class="meeting-table"></div><div class="fallen-chart"><span>QUALITY</span><i></i></div><div class="person sayid distant"></div></div>
+      <article class="story-card"><p class="eyebrow">DISENGAGEMENT</p><h2>He hasn't resigned.<br>But he has withdrawn.</h2><p>Meetings become quiet. Team activities stop. Volunteering fades. Work quality falls and timelines begin to slip.</p><button class="choice" data-reveal="break-note">The warning sign isn't a resignation letter <b>+</b></button><p id="break-note" class="reveal">It is the moment an employee stops seeing a future.</p><button class="primary locked" data-next="9">Return to the argument <b>→</b></button></article>
+    </section>
+
+    <section class="screen analysis" data-scene="9">
+      <div class="scene-label">09 / WHAT WOULD YOU DO?</div>
+      <div class="analysis-head"><p class="eyebrow">THE HR LENS</p><h2>Not one villain.<br><em>A system of missed signals.</em></h2><p>Explore the pressure points behind Sayid's story.</p></div>
+      <div class="analysis-grid">
+        <button class="analysis-card" data-analysis="career"><span>01</span><b>Career conversation</b><small>Was the aspiration heard early enough?</small></button>
+        <button class="analysis-card" data-analysis="mobility"><span>02</span><b>Internal mobility</b><small>Could skill, readiness and business need be balanced?</small></button>
+        <button class="analysis-card" data-analysis="manager"><span>03</span><b>Manager accountability</b><small>Who owns development beyond the current project?</small></button>
+        <button class="analysis-card" data-analysis="bond"><span>04</span><b>Bond &amp; retention</b><small>Does restriction retain commitment — or only tenure?</small></button>
+      </div>
+      <div class="analysis-answer" id="analysisAnswer">Choose a lens to reveal the HR question behind it.</div>
+      <button class="primary" data-next="10">Meet the cast <b>→</b></button>
+    </section>
+
+    <section class="screen cast" data-scene="10">
+      <div class="scene-label">LIVE ROLEPLAY / CAST</div>
+      <div class="cast-header"><p class="eyebrow">THE PEOPLE IN THE ROOM</p><h2>Who holds<br>the story?</h2><p>Photo spaces are ready for your final cast images.</p></div>
+      <div class="cast-grid">
+        <article class="cast-card narrator"><div class="photo-slot">PHOTO<br>PLACEHOLDER</div><p>NARRATOR</p><h3>Deepika</h3></article>
+        <article class="cast-card sayid-card"><div class="photo-slot">PHOTO<br>PLACEHOLDER</div><p>SAYID</p><h3>Ansh</h3></article>
+        <article class="cast-card maya"><div class="photo-slot">PHOTO<br>PLACEHOLDER</div><p>MAYA / DEEPAK</p><h3>Tanya</h3></article>
+        <article class="cast-card tej"><div class="photo-slot">PHOTO<br>PLACEHOLDER</div><p>TEJINDER</p><h3>Sonali</h3></article>
+        <article class="cast-card vet"><div class="photo-slot">PHOTO<br>PLACEHOLDER</div><p>VETRIVEL / PRIYA</p><h3>Ishika</h3></article>
+      </div>
+      <button class="primary restart" data-next="0">Replay the journey <b>↺</b></button>
+    </section>
+  </main>
+  <nav class="scene-nav" aria-label="Story navigation"><button id="prevBtn">← Back</button><div id="dots"></div><button id="nextBtn">Next →</button></nav>
+  <script src="script.js"></script>
+</body>
+</html>
